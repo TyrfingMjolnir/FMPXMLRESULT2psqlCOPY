@@ -23,3 +23,4 @@ xsltproc FMPXMLRESULT2psqlCOPY.xslt YourTable.tidy.fmpxmlresult.xml \> YourTable
 
 To minimize editing in the .sql file you would really like to edit your fmpxmlresult.xml file to match the following criteria \<DATABASE LAYOUT="tablename" NAME="schemaname" /\> as pr example: \<DATABASE LAYOUT="contact" NAME="public" />
 
+FYI: schema in pg is like a folder for tables, can be nifty sometimes, if you do not need this feature, just use the default one, named: public
