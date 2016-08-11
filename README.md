@@ -15,10 +15,11 @@ Depending on your user base* you may or may not want to run
 ---
 tidy -i -xml -wrap 0 -utf8 YourTable.fmpxmlresult.xml \> YourTable.tidy.fmpxmlresult.xml 
 
+* How much garbage did they fill in your fields.
+
 and then 
 ---
 xsltproc FMPXMLRESULT2psqlCOPY.xslt YourTable.tidy.fmpxmlresult.xml \> YourTable.sql
 
 To minimize editing in the .sql file you would really like to edit your fmpxmlresult.xml file to match the following criteria \<DATABASE LAYOUT="tablename" NAME="schemaname" /\> as pr example: \<DATABASE LAYOUT="contact" NAME="public" />
 
-* How much garbage did they fill in your fields.
