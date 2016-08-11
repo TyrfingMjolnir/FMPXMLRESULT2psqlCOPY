@@ -7,7 +7,9 @@ Works fine with all field types but content may or may not be a bit trikcy for m
 
 Note that adding a layout name in the FMPXMLRESULT export; before translating using this XSLT, will make the output more complete.
 
-How to use this file in terminal: xsltproc FMPXMLRESULT2psqlCOPY.xslt YourTable.fmpxmlresult.xml > YourTable.sql
+How to use this file in terminal
+---
+xsltproc FMPXMLRESULT2psqlCOPY.xslt YourTable.fmpxmlresult.xml > YourTable.sql
 
 Depending on your userbase you may or may not want to run
 ---
