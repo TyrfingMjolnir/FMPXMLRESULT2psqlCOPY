@@ -12,7 +12,7 @@ How to use this file in terminal: xsltproc FMPXMLRESULT2psqlCOPY.xslt YourTable.
 Depending on your userbase you may or may not want to run
 ---
 tidy -i -xml -wrap 0 -utf8 YourTable.fmpxmlresult.xml \> YourTable.tidy.fmpxmlresult.xml 
----
+
 and then 
 ---
 xsltproc FMPXMLRESULT2psqlCOPY.xslt YourTable.tidy.fmpxmlresult.xml \> YourTable.sql
