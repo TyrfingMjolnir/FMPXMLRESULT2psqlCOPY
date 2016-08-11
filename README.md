@@ -15,7 +15,7 @@ Depending on your user base* you may or may not want to run
 ---
 tidy -i -xml -wrap 0 -utf8 YourTable.fmpxmlresult.xml \> YourTable.tidy.fmpxmlresult.xml 
 
-* How much garbage did they fill in your fields.
+* How much control structures did they manage fill into your fields.
 
 and then 
 ---
