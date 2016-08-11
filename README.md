@@ -11,7 +11,7 @@ How to use this file in terminal
 ---
 xsltproc FMPXMLRESULT2psqlCOPY.xslt YourTable.fmpxmlresult.xml > YourTable.sql
 
-Depending on your userbase you may or may not want to run
+Depending on your user base* you may or may not want to run
 ---
 tidy -i -xml -wrap 0 -utf8 YourTable.fmpxmlresult.xml \> YourTable.tidy.fmpxmlresult.xml 
 
@@ -20,3 +20,5 @@ and then
 xsltproc FMPXMLRESULT2psqlCOPY.xslt YourTable.tidy.fmpxmlresult.xml \> YourTable.sql
 
 To minimize editing in the .sql file you would really like to edit your fmpxmlresult.xml file to match the following criteria \<DATABASE LAYOUT="tablename" NAME="schemaname" /\> as pr example: \<DATABASE LAYOUT="contact" NAME="public" />
+
+* How much garbage did they fill in your fields.
