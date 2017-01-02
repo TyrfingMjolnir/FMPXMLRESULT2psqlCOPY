@@ -7,7 +7,7 @@ Works fine with all field types but content may or may not be a bit trikcy for m
 
 Note that adding a layout name in the FMPXMLRESULT export; before translating using this XSLT, will make the output more complete.
 
-<img alt="[x] Format Using Layout will provoke the export to populate the LAYOUT-attribute" src="FormatUsingLayout.jpg" width="100%" max-width=1008>
+<img alt="[x] Format Using Layout will provoke the export to populate the LAYOUT-attribute" src="FormatUsingLayout.png" width="100%" max-width=1008>
 
 How to use this file in terminal
 ---
